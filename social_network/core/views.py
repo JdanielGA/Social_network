@@ -7,4 +7,4 @@ from django.http import HttpResponse
 
 # Desc: Index view.
 def index(request):
-    return HttpResponse("<h1>Hello, Welcome to the Social Network index.</h1>")
+    return render(request, 'index.html')
